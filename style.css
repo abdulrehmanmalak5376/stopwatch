@@ -1,0 +1,38 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+.main{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+border: 1px solid black;
+ background: black;
+ height: 33vh;
+ width: 30vw;
+ border-radius: 12px;
+ padding: 12px;
+ box-sizing: border-box;
+}
+.watch{
+display: flex;
+font-size: 3rem;
+justify-content: center;
+align-items: center;
+border: 1px solid black;
+background: rgba(79, 79, 232, 0.859);
+height: 60%;
+width: 100%;
+border-radius: 12px;
+margin-bottom: 15px;
+}
+.btn{
+    padding: 12px;
+    gap: 12px;
+    margin: 3px;
+}
